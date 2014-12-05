@@ -1,0 +1,20 @@
+name: PERankInfo
+main: me.tekkitcommando.rankinfo.RankInfo
+version: 1.0.0
+depend: [PromotionEssentials]
+
+commands:
+   staffperms:
+      description: Gives the player a list of staff members.
+   rankinfo:
+      description: Gives the player a list of donators.
+   rankreload:
+      description: Reloads plugin config.
+   perankinfo:
+      description: Plugin Menu.
+
+permissions:
+    peranks.reload:
+        description: Gives access reload the plugin.
+    ranks.infolist:
+        description: Gives access reload the plugin.
